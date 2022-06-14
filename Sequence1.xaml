@@ -1,0 +1,220 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Sequence1" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="468,349" sap2010:WorkflowViewState.IdRef="Sequence1_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:besm="clr-namespace:BalaReva.EasyPowerPoint.Scope.Main;assembly=BalaReva.Easy.PowerPoint" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <scg:List x:TypeArguments="x:String" Capacity="58">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Runtime.InteropServices</x:String>
+      <x:String>UiPathLibrary</x:String>
+      <x:String>BalaReva.EasyPowerPoint.Scope.Main</x:String>
+      <x:String>BalaReva.EasyPowerPoint.Base</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+    </scg:List>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="42">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>UiPathLibrary</AssemblyReference>
+      <AssemblyReference>BalaReva.Easy.PowerPoint</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>Microsoft.Bcl.AsyncInterfaces</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+    </scg:List>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence sap:VirtualizedContainerService.HintSize="478,284" sap2010:WorkflowViewState.IdRef="Sequence_9">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="436,192" sap2010:WorkflowViewState.IdRef="CommentOut_2">
+      <ui:CommentOut.Body>
+        <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="242,114" sap2010:WorkflowViewState.IdRef="Sequence_8">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <Sequence DisplayName="Sequence1" sap:VirtualizedContainerService.HintSize="200,22" sap2010:WorkflowViewState.IdRef="Sequence_1">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="sd:DataTable" Name="MyDT" />
+              <Variable x:TypeArguments="x:String" Name="OP" />
+            </Sequence.Variables>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ui:OpenApplication ApplicationWindow="{x:Null}" Arguments="{x:Null}" TimeoutMS="{x:Null}" WorkingDirectory="{x:Null}" DisplayName="Open Application 'chrome.exe  Test'" FileName="C:\Program Files\Google\Chrome\Application\chrome.exe" sap:VirtualizedContainerService.HintSize="536,229" sap2010:WorkflowViewState.IdRef="OpenApplication_1" InformativeScreenshot="df6f0dcf3e9855d6b611e8d4f08cddd7" Selector="&lt;html app='chrome.exe' title='Test' /&gt;">
+              <ui:OpenApplication.Body>
+                <ActivityAction x:TypeArguments="x:Object">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
+                  </ActivityAction.Argument>
+                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="200,83" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                  </Sequence>
+                </ActivityAction>
+              </ui:OpenApplication.Body>
+            </ui:OpenApplication>
+            <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="536,84" sap2010:WorkflowViewState.IdRef="MessageBox_2" Text="[&quot;&quot;]" />
+            <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'editable text'" sap:VirtualizedContainerService.HintSize="536,106" sap2010:WorkflowViewState.IdRef="Click_1" KeyModifiers="None" MouseButton="BTN_LEFT">
+              <ui:Click.CursorPosition>
+                <ui:CursorPosition Position="Center">
+                  <ui:CursorPosition.OffsetX>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:CursorPosition.OffsetX>
+                  <ui:CursorPosition.OffsetY>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:CursorPosition.OffsetY>
+                </ui:CursorPosition>
+              </ui:Click.CursorPosition>
+              <ui:Click.Target>
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="9aece30c-12fe-4575-ad54-b0ce76dbb92d" InformativeScreenshot="fbca94f72768f162b45c61bc22db4376" Selector="&lt;wnd app='dotpeek64.exe' cls='HwndWrapper*' title='JetBrains dotPeek' /&gt;&lt;ctrl name='Click.cs' role='page tab' /&gt;&lt;ctrl name='Click.cs' role='pane' /&gt;&lt;ctrl automationid='EditorView-Right' /&gt;">
+                  <ui:Target.TimeoutMS>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:Target.TimeoutMS>
+                  <ui:Target.WaitForReady>
+                    <InArgument x:TypeArguments="ui:WaitForReady" />
+                  </ui:Target.WaitForReady>
+                </ui:Target>
+              </ui:Click.Target>
+            </ui:Click>
+            <besm:PowerPointScope FilePath="{x:Null}" ModifyPassword="{x:Null}" OpenPassword="{x:Null}" DisplayName="PowerPoint Application Scope" sap:VirtualizedContainerService.HintSize="536,225" sap2010:WorkflowViewState.IdRef="PowerPointScope_1">
+              <besm:PowerPointScope.Body>
+                <ActivityAction x:TypeArguments="besm:PowerPointObject">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="besm:PowerPointObject" Name="PptObj" />
+                  </ActivityAction.Argument>
+                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="200,83" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                  </Sequence>
+                </ActivityAction>
+              </besm:PowerPointScope.Body>
+            </besm:PowerPointScope>
+            <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="536,22" sap2010:WorkflowViewState.IdRef="CommentOut_1">
+              <ui:CommentOut.Body>
+                <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="518,114" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <Sequence DisplayName="Screen Scraping" sap:VirtualizedContainerService.HintSize="200,22" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                    <Sequence.Variables>
+                      <Variable x:TypeArguments="ui:GenericValue" Name="PowershellExeSelect" />
+                    </Sequence.Variables>
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Attach Window 'SelectAdm Consolewi'" sap:VirtualizedContainerService.HintSize="434,344" sap2010:WorkflowViewState.IdRef="WindowScope_1" InformativeScreenshot="8cadbe7458e2a486ecd5ec7d3536208a" Selector="&lt;wnd app='powershell.exe' cls='ConsoleWindowClass' title='Select Administrator: Windows PowerShell' /&gt;">
+                      <ui:WindowScope.Body>
+                        <ActivityAction x:TypeArguments="x:Object">
+                          <ActivityAction.Argument>
+                            <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
+                          </ActivityAction.Argument>
+                          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="376,198" sap2010:WorkflowViewState.IdRef="Sequence_2">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                            <ui:GetVisibleText WordsInfo="{x:Null}" DisplayName="Get Visible Text 'powershell.exe Select'" FormattedText="False" sap:VirtualizedContainerService.HintSize="334,106" sap2010:WorkflowViewState.IdRef="GetVisibleText_1">
+                              <ui:GetVisibleText.Target>
+                                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="8eac47a7-9bcc-4489-9c73-36c0bfb8689c" InformativeScreenshot="67791c3e3036d4651ea017eba6f1c411">
+                                  <ui:Target.TimeoutMS>
+                                    <InArgument x:TypeArguments="x:Int32" />
+                                  </ui:Target.TimeoutMS>
+                                  <ui:Target.WaitForReady>
+                                    <InArgument x:TypeArguments="ui:WaitForReady" />
+                                  </ui:Target.WaitForReady>
+                                </ui:Target>
+                              </ui:GetVisibleText.Target>
+                              <ui:GetVisibleText.Text>
+                                <OutArgument x:TypeArguments="ui:GenericValue">[PowershellExeSelect]</OutArgument>
+                              </ui:GetVisibleText.Text>
+                            </ui:GetVisibleText>
+                          </Sequence>
+                        </ActivityAction>
+                      </ui:WindowScope.Body>
+                    </ui:WindowScope>
+                  </Sequence>
+                </Sequence>
+              </ui:CommentOut.Body>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </ui:CommentOut>
+            <ui:GenerateDataTable ColumnSeparators="{x:Null}" ColumnSizes="{x:Null}" NewLineSeparator="{x:Null}" Positions="{x:Null}" CSVParsing="False" DataTable="[MyDT]" DisplayName="Generate Data Table" sap:VirtualizedContainerService.HintSize="536,200" sap2010:WorkflowViewState.IdRef="GenerateDataTable_1" Input="                                                                                                                                                                                              &#xA;  609787 Jun 12 01:02  SuccessA... Microsoft-Windows...         4672 Special privileges assigned to new logon....                                                                                                                                                              &#xA;  609785 Jun 12 01:01  SuccessA... Microsoft-Windows...         4672 Special privileges assigned to new logon....                                                                                                                                                              &#xA;  609673 Jun 12 01:00  SuccessA... Microsoft-Windows...         4672 Special privileges assigned to new logon....                                                                                                                                                              &#xA;  609658 Jun 12 01:00  SuccessA... Microsoft-Windows...         4672 Special privileges assigned to new logon....                                                                                                                                                              &#xA;  609656 Jun 12 01:00  SuccessA... Microsoft-Windows...         4672 Special privileges assigned to new logon....                                                                                                                                                              &#xA;  609654 Jun 12 00:58  SuccessA... Microsoft-Windows...         4672 Special privileges assigned to new logon....                                                                                                                                                              &#xA;  609652 Jun 12 00:57  SuccessA... Microsoft-Windows...         4672 Special privileges assigned to new logon....                                                                                                                                                              &#xA;  609650 Jun 12 00:56  SuccessA... Microsoft-Windows...         4672 Special privileges assigned to new logon....                                                                                                                                                              &#xA;  609648 Jun 12 00:55  SuccessA... Microsoft-Windows...         4672 Special privileges assigned to new logon....                                                                                                                                                              &#xA;  609646 Jun 12 00:54  SuccessA... Microsoft-Windows...         4672 Special privileges assigned to new logon....                                                                                                                                                              &#xA;  609644 Jun 12 00:53  SuccessA... Microsoft-Windows...         4672 Special privileges assigned to new logon....                                                                                                                                                              &#xA;  609642 Jun 12 00:52  SuccessA... Microsoft-Windows...         4672 Special privileges assigned to new logon....                                                                                                                                                              &#xA;  609640 Jun 12 00:51  SuccessA... Microsoft-Windows...         4672 Special privileges assigned to new logon....                                                                                                                                                              &#xA;  609638 Jun 12 00:50  SuccessA... Microsoft-Windows...         4672 Special privileges assigned to new logon....                                                                                                                                                              &#xA;  609636 Jun 12 00:48  SuccessA... Microsoft-Windows...         4672 Special privileges assigned to new logon....                                                                                                                                                              &#xA;  609634 Jun 12 00:48  SuccessA... Microsoft-Windows...         4672 Special privileges assigned to new logon....                                                                                                                                                              &#xA;  609579 Jun 12 00:48  SuccessA... Microsoft-Windows...         4672 Special privileges assigned to new logon....                                                                                                                                                              &#xA;  609564 Jun 12 00:48  SuccessA... Microsoft-Windows...         4672 Special privileges assigned to new logon....                                                                                                                                                              &#xA;  609562 Jun 12 00:47  SuccessA... Microsoft-Windows...         4672 Special privileges assigned to new logon....                                                                                                                                                              &#xA;  609560 Jun 12 00:46  SuccessA... Microsoft-Windows...         4672 Special privileges assigned to new logon....                                                                                                                                                              &#xA;  609558 Jun 12 00:45  SuccessA... Microsoft-Windows...         4672 Special privileges assigned to new logon....                                                                                                                                                              &#xA;  609556 Jun 12 00:44  SuccessA... Microsoft-Windows...         4672 Special privileges assigned to new logon....                                                                                                                                                              &#xA;  609554 Jun 12 00:43  SuccessA... Microsoft-Windows...         4672 Special privileges assigned to new logon....                                                                                                                                                              &#xA;  609552 Jun 12 00:41  SuccessA... Microsoft-Windows...         4672 Special privileges assigned to new logon....                                                                                                                                                              &#xA;  609550 Jun 12 00:40  SuccessA... Microsoft-Windows...         4672 Special privileges assigned to new logon....                                                                                                                                                              &#xA;  609548 Jun 12 00:39  SuccessA... Microsoft-Windows...         4672 Special privileges assigned to new logon....                                                                                                                                                              &#xA;  609546 Jun 12 00:38  SuccessA... Microsoft-Windows...         4672 Special privileges assigned to new logon....                                                                                                                                                              &#xA;  609544 Jun 12 00:37  SuccessA... Microsoft-Windows...         4672 Special privileges assigned to new logon....                                                                                                                                                              &#xA;  609542 Jun 12 00:36  SuccessA... Microsoft-Windows...         4672 Special privileges assigned to new logon....                                                                                                                                                              &#xA;  609540 Jun 12 00:35  SuccessA... Microsoft-Windows...         4672 Special privileges assigned to new logon....                                                                                                                                                              &#xA;  609538 Jun 12 00:34  SuccessA... Microsoft-Windows...         4672 Special privileges assigned to new logon....                                                                                                                                                              &#xA;  609536 Jun 12 00:33  SuccessA... Microsoft-Windows...         4672 Special privileges assigned to new logon....                                                                                                                                                              &#xA;  609534 Jun 12 00:33  SuccessA... Microsoft-Windows...         4672 Special privileges assigned to new logon....                                                                                                                                                              &#xA;  609479 Jun 12 00:32  SuccessA... Microsoft-Windows...         4672 Special privileges assigned to new logon....                                                                                                                                                              &#xA;  609464 Jun 12 00:32  SuccessA... Microsoft-Windows...         4672 Special privileges assigned to new logon....                                                                                                                                                              &#xA;  609462 Jun 12 00:31  SuccessA... Microsoft-Windows...         4672 Special privileges assigned to new logon....                                                                                                                                                              &#xA;  609457 Jun 12 00:31  SuccessA... Microsoft-Windows...         4672 Special privileges assigned to new logon....                                                                                                                                                              &#xA;  609454 Jun 12 00:31  SuccessA... Microsoft-Windows...         4672 Special privileges assigned to new logon....                                                                                                                                                              &#xA;  609452 Jun 12 00:30  SuccessA... Microsoft-Windows...         4672 Special privileges assigned to new logon....                                                                                                                                                              &#xA;  609450 Jun 12 00:29  SuccessA... Microsoft-Windows...         4672 Special privileges assigned to new logon....                                                                                                                                                              &#xA;  609448 Jun 12 00:29  SuccessA... Microsoft-Windows...         4672 Special privileges assigned to new logon....                                                                                                                                                              &#xA;  609446 Jun 12 00:28  SuccessA... Microsoft-Windows...         4672 Special privileges assigned to new logon....                                                                                                                                                              &#xA;  609444 Jun 12 00:27  SuccessA... Microsoft-Windows...         4672 Special privileges assigned to new logon....                                                                                                                                                              &#xA;  609442 Jun 12 00:26  SuccessA... Microsoft-Windows...         4672 Special privileges assigned to new logon....                                                                                                                                                              &#xA;  609440 Jun 12 00:25  SuccessA... Microsoft-Windows...         4672 Special privileges assigned to new logon....                                                                                                                                                              &#xA;  609438 Jun 12 00:25  SuccessA... Microsoft-Windows...         4672 Special privileges assigned to new logon....                                                                                                                                                              &#xA;  609436 Jun 12 00:25  SuccessA... Microsoft-Windows...         4672 Special privileges assigned to new logon....                                                                                                                                                              &#xA;  609434 Jun 12 00:23  SuccessA... Microsoft-Windows...         4672 Special privileges assigned to new logon....                                                                                                                                                              &#xA;  609432 Jun 12 00:22  SuccessA... Microsoft-Windows...         4672 Special privileges assigned to new logon....                                                                                                                                                              &#xA;  609430 Jun 12 00:21  SuccessA... Microsoft-Windows...         4672 Special privileges assigned to new logon....                                                                                                                                                              &#xA;  609428 Jun 12 00:20  SuccessA... Microsoft-Windows...         4672 Special privileges assigned to new logon....                                                                                                                                                              &#xA;  609426 Jun 12 00:18  SuccessA... Microsoft-Windows...         4672 Special privileges assigned to new logon....                                                                                                                                                              &#xA;  609424 Jun 12 00:18  SuccessA... Microsoft-Windows...         4672 Special privileges assigned to new logon....                                                                                                                                                              &#xA;  609422 Jun 12 00:17  SuccessA... Microsoft-Windows...         4672 Special privileges assigned to new logon....                                                                                                                                                              &#xA;  609363 Jun 12 00:16  SuccessA... Microsoft-Windows...         4672 Special privileges assigned to new logon....                                                                                                                                                              &#xA;  609361 Jun 12 00:15  SuccessA... Microsoft-Windows...         4672 Special privileges assigned to new logon....                                                                                                                                                              &#xA;  609253 Jun 12 00:15  SuccessA... Microsoft-Windows...         4672 Special privileges assigned to new logon....                                                                                                                                                              &#xA;  609231 Jun 12 00:15  SuccessA... Microsoft-Windows...         4672 Special privileges assigned to new logon....                                                                                                                                                              &#xA;  609229 Jun 12 00:14  SuccessA... Microsoft-Windows...         4672 Special privileges assigned to new logon....                                                                                                                                                              &#xA;  609227 Jun 12 00:13  SuccessA... Microsoft-Windows...         4672 Special privileges assigned to new logon....                                                                                                                                                              &#xA;  609225 Jun 12 00:12  SuccessA... Microsoft-Windows...         4672 Special privileges assigned to new logon...." />
+            <ui:OutputDataTable DataTable="[MyDT]" DisplayName="Output Data Table" sap:VirtualizedContainerService.HintSize="536,79" sap2010:WorkflowViewState.IdRef="OutputDataTable_1" Text="[OP]" />
+            <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="536,84" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[OP]" />
+          </Sequence>
+        </Sequence>
+      </ui:CommentOut.Body>
+    </ui:CommentOut>
+  </Sequence>
+</Activity>
